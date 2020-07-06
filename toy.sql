@@ -7,6 +7,6 @@ CREATE TABLE IF NOT EXISTS `toy` (
 ) 
 
 INSERT INTO `toy` (`id`, `name`, `code`, `category`, `price`, `stock_count`) VALUES
-(1, 'Music Aeroplane', 'TOY#MA01', 'Music Toys'),
-(2, 'Power Ranger', 'TOY#BT01', 'Battery Toys'),
-(3, 'Water Gun', 'TOY#WG01', 'Water Games');
+(1, 'Music Aeroplane', '01', 'Music Toys'),
+(2, 'Power Ranger', '02', 'Battery Toys'),
+(3, 'Water Gun', '03', 'Water Games');

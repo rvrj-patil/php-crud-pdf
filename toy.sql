@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS `toy` (
   PRIMARY KEY (`id`)
 ) 
 
-INSERT INTO `toy` (`id`, `name`, `code`, `category`, `price`, `stock_count`) VALUES
+INSERT INTO `toy` (`id`, `name`, `code`, `category`) VALUES
 (1, 'Music Aeroplane', '01', 'Music Toys'),
 (2, 'Power Ranger', '02', 'Battery Toys'),
 (3, 'Water Gun', '03', 'Water Games');

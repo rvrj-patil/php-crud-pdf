@@ -36,7 +36,7 @@
 	$sql = "SELECT * FROM toy " . $queryCondition;
 	$href = 'index.php';					
 		
-	$perPage = 2; 
+	$perPage = 10; 
 	$page = 1;
 	if(isset($_POST['page'])){
 		$page = $_POST['page'];
